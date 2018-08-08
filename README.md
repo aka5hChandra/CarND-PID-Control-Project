@@ -3,7 +3,7 @@ Self-Driving Car Engineer Nanodegree Program
 
 ---
 
-#Describe the effect each of the P, I, D components had in your implementation.
+# Describe the effect each of the P, I, D components had in your implementation.
 
 The proportional component (P) checks the cross-track error (cte) of the drive, by trying to steer the car towards the center of the track. Larger P can overshoot the car and leads to the oscillating trajectory. 
 
@@ -11,7 +11,7 @@ The integral component (I) is an adjusment to the bias. It is an integral for ct
 
 The differential component (D) is derivative of the cte. It counteracts the P component and  reduces the oscillation.
 
-#Describe how the final hyperparameters were chosen.
+# Describe how the final hyperparameters were chosen.
 
 The parameters were chosen manually by try and error. They are set to the values of P = 0.15, I =  0.0, D = 2.5
 
